@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    float: left;
+    margin: 5px;
+}
+
+}
+.top {
+    display: inline-block;
+    width: 385px;
+    border-bottom: 1px solid #000;
+    clear: both;
+}
+.clearfix::after {
+   content: “”;
+   display: block;
+   clear: both;
+}
+
+.profile {
+    font-family: 'Pathway Gothic One';
+    width: 250px;
+    margin-right: 4px;
+
+}
+
+.principles {
+    font-family: 'Pathway Gothic One';
+    width: 120px;
+    margin-left: 4px;
+}
+
+
+
+
+.bottom {
+    display: inline-block;
+}
+.offer {
+    font-family: 'Pathway Gothic One';
+    position: relative;
+    float: left;
+    width: 300px;
+    color:263555;
+
+}
+
+.testimonial {
+    position: relative;
+    float: right;
+    width: 90px;
+    color:263555;
+    text-align: center;
+
+}
+
+    
+body {
+    background-image: url(../tmp698246709049819137.jpg); no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+h1 {
+    color: 263555;
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'Pathway Gothic One';
+    color: 263555;
+    font-size: 10px;
+}
+
+h2 {
+    font-family: 'Pathway Gothic One';
+    color:263555;
+    line-height: 1.5;
+    font-size: 8px;
+}
+
+p {
+    color: 000;
+    font-size: 4px;
+    font-family: 'Pathway Gothic One';
+
+}
+
+h4 {
+    font-size: 10px;
+    font-family: 'Pathway Gothic One';
+}
+
+li {
+    font-family: 'Pathway Gothic One';
+    width: 10px;
+	height: 10px;
+	color: 38afe5;
+}
+
+ol {
+    font-family: 'Pathway Gothic One';
+    color: 263555;
+    font-size: 6px;
+}
+
+
+.wrapper {
+    width: 480px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: #000;
+    margin: 80px;
+    background: #fff; margin: 0 auto;
+    padding: 38px 38px 45px 54px;
+    background-position: fixed;
+        }
+
+  
+
+
+ul {
+    text-decoration: none;
+    columns: 2;
+    list-style-type: none;
+    font-size: 8px;
+    font-family: 'Pathway Gothic One';
+    margin-top: 20px;
+    line-height: 2;
+    color: #263555
+    }
