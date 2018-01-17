@@ -8,6 +8,10 @@ img {
     float: left;
     margin: 5px;
     }
+h1, h2, h3, h4, h6 {
+    font-family: 'Pathway Gothic One';
+    color: #003366;
+    }
 
 .top {
     display: inline-block;
@@ -47,8 +51,12 @@ img {
     display: inline-block;
     font-family: 'Pathway Gothic One';
     width: 250px;
-    color:263555;
+    color:#003366;
 
+}
+
+.offer p{
+    color: #000;
 }
 
 .testimonial {
@@ -57,12 +65,13 @@ img {
     vertical-align: top;
     float: right;
     width: 120px;
-    color:263555;
+    color:#003366;
     text-align: center;
     }
-h1, h2, h3, h4, h6 {
-    font-family: 'Pathway Gothic One'
-    }
+
+.testimonial p {
+    color: #000;
+}
     
 body {
     background-image: url(../tmp698246709049819137.jpg); no-repeat center;
@@ -71,19 +80,15 @@ body {
     }
 
 h1 {
-    color: 263555;
     font-size: 15px;
     }
 
-h3 {
-    
-    color: 263555;
+h3, h4 {
     font-size: 10px;
     }
 
 h2 {
     
-    color:263555;
     line-height: 1.5;
     font-size: 8px;
     }
@@ -91,31 +96,25 @@ h2 {
 p {
     color: 000;
     font-size: 4px;
-    
-    }
-
-h4 {
-    font-size: 10px;
-    
     }
 
 ul li {
 padding: 0;
 margin: 0;
 list-style: none;
-}
+    }
 
 .numberCircle {
     list-style-type:none;
     font-size:15px;
-}
+    }
 
 .numberCircle li {
     margin: 0px;
-}
+    }
 .principles ol {
     counter-reset: numberCircle;
-}
+    }
 .principles li::before {
     border-radius:50%;
     counter-increment: numberCircle;
@@ -168,9 +167,8 @@ ul {
     columns: 2;
     list-style-type: none;
     font-size: 8px;
-    
     margin-top: 20px;
     line-height: 2;
     width: 250px;
-    color: #263555
+    color: #003366;
     }
