@@ -2,63 +2,67 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+    }
 
-img{
+img {
     float: left;
     margin: 5px;
-}
+    }
 
-}
 .top {
     display: inline-block;
     width: 385px;
     border-bottom: 1px solid #000;
     clear: both;
-}
+    }
+
 .clearfix::after {
-   content: “”;
+   content: "";
    display: block;
    clear: both;
-}
+    }
 
 .profile {
-    font-family: 'Pathway Gothic One';
+    display: inline-block;
+    
     width: 250px;
-    margin-right: 4px;
-
-}
+    margin-right: 8px;
+    }
 
 .principles {
-    font-family: 'Pathway Gothic One';
-    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 100px;
     margin-left: 4px;
-}
-
-
+    }
 
 
 .bottom {
     display: inline-block;
+    width: 385px;
 }
+
 .offer {
+    display: inline-block;
     font-family: 'Pathway Gothic One';
-    position: relative;
-    float: left;
-    width: 300px;
+    width: 250px;
     color:263555;
 
 }
 
 .testimonial {
-    position: relative;
+    
+    display: inline-block;
+    vertical-align: top;
     float: right;
-    width: 90px;
+    width: 120px;
     color:263555;
     text-align: center;
-
-}
-
+    }
+h1, h2, h3, h4, h6 {
+    font-family: 'Pathway Gothic One'
+    }
     
 body {
     background-image: url(../tmp698246709049819137.jpg); no-repeat center;
@@ -69,46 +73,77 @@ body {
 h1 {
     color: 263555;
     font-size: 15px;
-}
+    }
 
 h3 {
-    font-family: 'Pathway Gothic One';
+    
     color: 263555;
     font-size: 10px;
-}
+    }
 
 h2 {
-    font-family: 'Pathway Gothic One';
+    
     color:263555;
     line-height: 1.5;
     font-size: 8px;
-}
+    }
 
 p {
     color: 000;
     font-size: 4px;
-    font-family: 'Pathway Gothic One';
-
-}
+    
+    }
 
 h4 {
     font-size: 10px;
-    font-family: 'Pathway Gothic One';
+    
+    }
+
+ul li {
+padding: 0;
+margin: 0;
+list-style: none;
 }
 
-li {
-    font-family: 'Pathway Gothic One';
+.numberCircle {
+    list-style-type:none;
+    font-size:15px;
+}
+
+.numberCircle li {
+    margin: 0px;
+}
+.principles ol {
+    counter-reset: numberCircle;
+}
+.principles li::before {
+    border-radius:50%;
+    counter-increment: numberCircle;
+    content:counter(numberCircle);
+    background: #38afe5;
+    color:#fff;
+    line-height:18px;
+    text-align: center;
+    width:18px;
+    height:18px;
+    display:inline-block;
+    position: relative;
+    top:20px;
+    right: 20px;
+}
+
+ol li::before {
     width: 10px;
-	height: 10px;
-	color: 38afe5;
+    height: 10px;
 }
 
 ol {
-    font-family: 'Pathway Gothic One';
-    color: 263555;
+    list-style-type: none;
     font-size: 6px;
-}
-
+    position: relative;
+    bottom: 1px;
+    left: 12px;
+    }
 
 .wrapper {
     width: 480px;
@@ -121,18 +156,21 @@ ol {
     background: #fff; margin: 0 auto;
     padding: 38px 38px 45px 54px;
     background-position: fixed;
-        }
+    }
 
-  
-
+ul li:before {
+    content: '\2192';
+    color: #38afe5;
+}
 
 ul {
     text-decoration: none;
     columns: 2;
     list-style-type: none;
     font-size: 8px;
-    font-family: 'Pathway Gothic One';
+    
     margin-top: 20px;
     line-height: 2;
+    width: 250px;
     color: #263555
     }
